@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset = "utf-8">
+  <meta name = "viewport" content = "width=device-width">
+  <title> generator </title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+ @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200&family=Montserrat&family=Raleway&display=swap');
+
+  body{
+    background-color: #F5EFE7;
+  }
+
+  .table{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+  }
+  .intro{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #4F709C;
+}
+  .button{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #4F709C;
+  }
+   .output{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #213555;
+  }
+  
+  h1{
+    color: #213555;
+  }
+
+  h2{
+    color: #213555;
+  }
+
+   h3{
+    font-family: 'Raleway', sans-serif;
+    color: #213555;
+  }
+</style>
+
+<body>
+<header align = "center">
+<a href= index.html><img src ="https://fontmeme.com/permalink/230704/f4f4f75550d9d3ffc514583e5cce09c8.png" alt="happy birthday loser >:)" border="0"></a>
+</header>
+  <hr>
+  <nav>
+  <div class = "table">
+  <table align = "center" cellspacing = "5" cellpadding = "5">
+    <tr>
+    <td> <h1> <a href = index.html> home </a> </h1> </td>
+    <td> <h1> <a href = letter.html> letter </a> </h1> </td>
+    <td> <h1> <a href = playlist.html> playlist </h1></td>
+    <td> <h1> <a href = generator.html> generator </h1></td>
+    <td> <h1> <a href = poetry.html> poetry </a> </h1></td>
+    </tr>
+  </table>
+  </div>
+  </nav> 
+  <div class = "intro">
+    <h1> OMG WORD GENERATOR :0 </h1>
+    <img src = "https://media.tenor.com/h9tTaOO_nfsAAAAM/roblox-roblox-dance.gif" width = "20%"> 
+    <h5> it's about to get real cray cray here </h5>
+    <h6> no, it's not anything sus. why are you thinking that </h6>
+  </div>
+  
+  <div class = "button">
+    <button>click me bbg ;)</button>
+  </div>
+  
+  <div class = "output">
+   <div id="output"></div>
+   <script>
+    var btn = document.querySelector("button");
+    var out = document.getElementById("output");
+    btn.addEventListener("click", getWord);
+    function getWord(){
+      var theWord= [
+        'furry',
+        'grimace simper',
+        'gorilla obsessor',
+        'questionable taste in anime characters',
+        'grandma that needs IT support (aka me)',
+        'snail',
+        'stinky',
+        'poopy',
+        'diarreha',
+        'sus',
+        'kansas weirdo (who even likes kansas these days)',
+        'small brain',
+        'cannot spell right for her life (SPELL MY NAME RIGHT)',
+        'unhinged 24/7',
+        'impetinent to me for some reason',
+      ];
+
+      
+      var wordNum = Math.floor(Math.random() * theWord.length);
+      
+     
+      output.textContent = theWord[wordNum];
+    }
+</script>
+</div>
+<h3 align = "center"> whatever i just said is the truth. no, i will not take any objections nor hear you out. </h3>
+</body>
+</html>
